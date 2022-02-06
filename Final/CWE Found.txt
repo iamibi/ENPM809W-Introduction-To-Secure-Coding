@@ -1,0 +1,34 @@
+Sonarr\src\Sonarr.RuntimePatches\RuntimePatcher.cs: 10 - 42 : CWE-489: Active Debug Code
+
+Sonarr\src\NzbDrone.Common\EnvironmentInfo\StartupContext.cs: 68 : CWE-20: Improper Input Validation
+
+Sonarr\src\NzbDrone.Common\EnvironmentInfo\AppFolderInfo.cs: 33 : CWE-117: Improper Output Neutralization for Logs
+
+Sonarr\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs : 105 : CWE-20: Improper Input Validation
+
+Config: CWE-23: Relative Path Traversal
+
+Sonarr\src\Sonarr.Api.V3\Config\HostConfigModule.cs : 89 : CWE-256: Plaintext Storage of a Password
+
+Config: CWE-319: Cleartext Transmission of Sensitive Information
+
+Sonarr\src\NzbDrone.Core\Datastore\ConnectionStringFactory.cs: 17 - 21 : CWE-922: Insecure Storage of Sensitive Information - The database and configuration files are stored in a location which is although not directly access but are at predictable location.
+
+Sonarr\src\Marr.Data\Mapping\ColumnMapCollection.cs: 120 : CWE-1333: Inefficient Regular Expression Complexity - No timeout given for the match
+D:\.NET\Sonarr\src\LogentriesCore\AsyncLogger.cs: 63, 66 ^
+
+d:\.net\sonarr\src\LogentriesCore\AsyncLogger.cs: 272 : CWE-330: Use of Insufficiently Random Values
+D:\.NET\Sonarr\src\MonoTorrent\ToolBox.cs: 56
+
+D:\.NET\Sonarr\src\NzbDrone.Core\Download\Clients\Deluge\DelugeSettings.cs: 28 : CWE-798: Use of Hard-coded Credentials
+
+Default config is no authentication enabled. NA NA
+password aging not implemented NA NA
+api key stored in database as plaintext - NzbVortexSettings.cs - 49
+session fixation - EnableAuthInNancy.cs - 78, 79
+cookies not set with secure flag - 
+nonce random - oauthtool.cs 71
+xml xxe - utorrentproxy.cs - 263 // check this
+logging - refreshseriesservices.cs, 215
+unrestricted file upload - check wanted
+use of http instead of https

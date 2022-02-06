@@ -1,0 +1,21 @@
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 10900 (PBKDF2-HMAC-SHA256)
+Hash.Target......: .\hashes.txt
+Time.Started.....: Sat Oct 02 23:37:13 2021 (24 mins, 35 secs)
+Time.Estimated...: Sun Oct 03 00:01:48 2021 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Base.......: File (.\SecLists-master\Passwords\combined_seclists_password_list.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:    18226 H/s (65.31ms) @ Accel:32 Loops:1024 Thr:64 Vec:1
+Recovered........: 2/2 (100.00%) Digests, 2/2 (100.00%) Salts
+Progress.........: 43681792/80230926 (54.45%)
+Rejected.........: 0/43681792 (0.00%)
+Restore.Point....: 21833728/40115463 (54.43%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:9216-9999
+Candidate.Engine.: Device Generator
+Candidates.#1....: 0611fb8 -> verrekkiezer
+Hardware.Mon.#1..: Util: 91% Core: 400MHz Mem:1200MHz Bus:16
+
+Started: Sat Oct 02 23:37:09 2021
+Stopped: Sun Oct 03 00:01:49 2021

@@ -1,0 +1,2 @@
+ButtonLogOn_Click - log.Info("User " + email + " attempted to log in with password " + pwd);
+btnLogout_Click - log.Info("User " + customerEmail + " performed a logout.");
